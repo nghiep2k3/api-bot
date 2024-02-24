@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 })
 
 app.use(function (req, res, next) {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin", "https://api-bot-vmpq.vercel.app/");
   res.setHeader("Access-Control-Allow-Methods", "GET, POST"); // Sửa đổi ở đây
   next();
 });
